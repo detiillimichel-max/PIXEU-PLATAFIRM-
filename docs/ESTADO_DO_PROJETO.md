@@ -204,7 +204,7 @@ Próximo do limite da sessão:
 
 Atualizar apenas:
 
-• COMMIT correspondente.
+• COMMITS correspondente.
 
 • ESTADO_DO_PROJETO.md
 
@@ -222,7 +222,35 @@ Atualizar apenas:
 
 0015
 
-PRÓXIMO COMMIT AUTOMÁTICO:
+PRÓXIMOS COMMITS AUTOMÁTICO:
 
 0016
-Atualizar sempre !
+-------------------------------------------------------
+
+ÚLTIMA ATUALIZAÇÃO
+
+23/07/2026
+
+-------------------------------------------------------
+
+ÚLTIMO COMMIT EXECUTADO
+
+0015
+
+-------------------------------------------------------
+
+PRÓXIMO COMMIT
+
+0016 EM DIATE
+
+-------------------------------------------------------
+
+IMPORTANTE
+
+Ao final de cada sessão de desenvolvimento, atualizar obrigatoriamente:
+
+• Último Commit Executado.
+• Próximos Commits.
+• Última Atualização.
+
+Este documento é o ponto oficial de retomada do projeto PIXEU.
