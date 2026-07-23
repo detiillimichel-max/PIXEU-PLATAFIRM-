@@ -6,7 +6,7 @@
 
 # OBJETIVO
 
-Este documento informa exatamente onde o desenvolvimento foi interrompido.
+Este documento é a referência oficial para continuidade do desenvolvimento da PIXEU.
 
 Ao iniciar uma nova sessão utilizando o GitHub, este deverá ser o primeiro documento consultado.
 
@@ -56,15 +56,11 @@ https://uqdwtzlkqaosnweyoyit.supabase.co
 
 Front-end
 
-React
-
-Vite
-
-Tailwind CSS
-
-PWA
-
-GitHub Pages
+- React
+- Vite
+- Tailwind CSS
+- PWA
+- GitHub Pages
 
 Status:
 
@@ -78,15 +74,11 @@ Status:
 
 PWA
 
-• Manifest
-
-• Service Worker
-
-• Registro do Service Worker
-
-• CSS Global
-
-• GitHub Pages
+- Manifest
+- Service Worker
+- Registro do Service Worker
+- CSS Global
+- GitHub Pages
 
 ---
 
@@ -100,13 +92,10 @@ Criar:
 
 src/components/layout/
 
-• Layout.tsx
-
-• Header.tsx
-
-• Sidebar.tsx
-
-• BottomNavigation.tsx
+- Layout.tsx
+- Header.tsx
+- Sidebar.tsx
+- BottomNavigation.tsx
 
 Objetivo:
 
@@ -116,73 +105,54 @@ Criar a estrutura principal utilizada em toda a plataforma PIXEU.
 
 # PRÓXIMA SPRINT
 
-0016 Layout Shell
+0016 — Layout Shell
 
-0017 Header
+0017 — Header
 
-0018 Sidebar
+0018 — Sidebar
 
-0019 Bottom Navigation
+0019 — Bottom Navigation
 
-0020 Tema Claro / Escuro
+0020 — Tema Claro / Escuro
 
-0021 Responsividade
+0021 — Responsividade
 
-0022 Home estilo Netflix
+0022 — Home estilo Netflix
 
-0023 Banner
+0023 — Banner
 
-0024 Carrosséis
+0024 — Carrosséis
 
 ---
 
 # PRÓXIMAS ETAPAS
 
-Home
-
-Busca
-
-Gateway Home
-
-Gateway Search
-
-Cache Inteligente
-
-Supabase
-
-Edge Functions
-
-Administração das APIs
-
-AI Router
-
-Analytics
-
-Moderação
+- Home
+- Busca
+- Gateway Home
+- Gateway Search
+- Cache Inteligente
+- Supabase
+- Edge Functions
+- Administração das APIs
+- AI Router
+- Analytics
+- Moderação
 
 ---
 
 # PRINCÍPIOS
 
-• Arquitetura antes da implementação.
-
-• Documentação antes do código.
-
-• Nenhum commit sem documentação.
-
-• Supabase como cérebro da plataforma.
-
-• APIs públicas sempre que possível.
-
-• Edge Functions somente quando necessário.
-
-• Cache antes da IA.
-
-• IA apenas quando agregar valor.
-
-• Economia de recursos como requisito de engenharia.
-
-• Código único para celular, tablet, desktop e TV.
+- Arquitetura antes da implementação.
+- Documentação antes do código.
+- Nenhum commit sem documentação.
+- Supabase como cérebro da plataforma.
+- APIs públicas sempre que possível.
+- Edge Functions somente quando necessário.
+- Cache antes da IA.
+- IA apenas quando agregar valor.
+- Economia de recursos como requisito de engenharia.
+- Código único para celular, tablet, desktop e TV.
 
 ---
 
@@ -204,53 +174,43 @@ Próximo do limite da sessão:
 
 Atualizar apenas:
 
-• COMMITS correspondente.
-
-• ESTADO_DO_PROJETO.md
-
-• PROXIMA_SESSAO.md
-
-• CHANGELOG.md (quando necessário).
+- Documentação dos COMMITS realizados.
+- ESTADO_DO_PROJETO.md.
+- PROXIMA_SESSAO.md.
+- CHANGELOG.md (quando necessário).
 
 ---
+
+# CONTROLE DA SESSÃO
 
 Última atualização
 
 23/07/2026
 
-ÚLTIMO COMMIT EXECUTADO:
+---
+
+Último Commit Executado
 
 0015
 
-PRÓXIMOS COMMITS AUTOMÁTICO:
+---
 
-0016
--------------------------------------------------------
+Próxima Faixa de COMMITS
 
-ÚLTIMA ATUALIZAÇÃO
+0016 em diante
 
-23/07/2026
+---
 
--------------------------------------------------------
-
-ÚLTIMO COMMIT EXECUTADO
-
-0015
-
--------------------------------------------------------
-
-PRÓXIMO COMMIT
-
-0016 EM DIATE
-
--------------------------------------------------------
-
-IMPORTANTE
+# IMPORTANTE
 
 Ao final de cada sessão de desenvolvimento, atualizar obrigatoriamente:
 
-• Último Commit Executado.
-• Próximos Commits.
-• Última Atualização.
+- Último Commit Executado.
+- Próxima Faixa de COMMITS.
+- Última Atualização.
 
 Este documento é o ponto oficial de retomada do projeto PIXEU.
+
+Este documento possui prioridade sobre qualquer conversa anterior.
+
+Em caso de divergência, seguir sempre o ESTADO_DO_PROJETO.md.
