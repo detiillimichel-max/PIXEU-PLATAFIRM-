@@ -1,22 +1,22 @@
 # CHANGELOG
 
-All notable changes to PIXEU Platform will be documented here.
+Todas as mudanças notáveis da PIXEU Platform serão documentadas aqui.
 
-## 0.1.0 - Foundation
+## 0.1.0 - Fundação
 
-### Added
-- Initial repository created.
-- README with project vision.
-- Architecture-first development policy.
-- Multi-platform target (Mobile, Tablet, Desktop and TV).
-- Supabase-first architecture.
-- Edge Functions as API gateway.
-- Public API preference.
+### Adicionado
+- Repositório inicial criado.
+- README com visão do projeto.
+- Política de desenvolvimento com arquitetura primeiro.
+- Foco multiplataforma (celular, tablet, desktop e TV).
+- Arquitetura centrada no Supabase.
+- Edge Functions como gateway das APIs.
+- Prioridade para APIs públicas.
 
-### Next
-- Project DNA
-- Architecture documentation
-- API policy
-- Edge Functions guide
-- Database documentation
-- UI Guidelines
+### Próximos passos
+- DNA do projeto
+- Documentação da arquitetura
+- Política de APIs
+- Guia das Edge Functions
+- Documentação do banco de dados
+- Diretrizes de UI
