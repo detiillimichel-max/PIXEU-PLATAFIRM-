@@ -1,26 +1,26 @@
 # PIXEU Platform
 
-PIXEU Platform is the foundation for a modular content ecosystem designed to serve TV, video, books, music, news, AI, and connections across mobile, tablet, desktop, and smart TV.
+## Visão Geral
+A PIXEU Platform é a base de uma plataforma modular para vídeos, TV, livros, música, notícias, inteligência artificial e conexões, desenvolvida para funcionar em celulares, tablets, computadores e Smart TVs.
 
-## Principles
-- Single codebase for all devices
-- Supabase-first architecture
-- Edge Functions as the gateway for all external APIs
-- Public APIs first whenever possible
-- Cache and TTL for cost control
-- APIs must respect provider limits and policies
-- Documentation before implementation
+## Princípios
+- Arquitetura antes da implementação.
+- Documentação antes do código.
+- Supabase como cérebro da plataforma.
+- Edge Functions como gateway de todas as APIs.
+- Prioridade para APIs públicas.
+- Economia de requisições, cache e recursos.
+- Respeito às políticas e limites de cada API.
+- Uma única base de código para todas as plataformas.
 
-## Project Structure
-- `README.md` — overview and setup
-- `CHANGELOG.md` — human-readable change history
-- `docs/` — architecture, policies, roadmap, and decisions
-- `src/` — frontend application code
-- `supabase/` — database, Edge Functions, and backend assets
+## Estrutura Inicial
+- README.md
+- CHANGELOG.md
+- docs/
+- src/
+- supabase/
 
-## Brand
-- Product name shown to users: **PIXEU**
-- Technical repository name: **PIXEU Platform**
+## Marca
+Nome do produto: **PIXEU**.
 
-## First Commit Goal
-This repository begins with the architecture and documentation layer so the project can grow without becoming difficult to maintain.
+Este repositório documenta a evolução da plataforma desde sua fundação, mantendo arquitetura, documentação e código sincronizados em todos os commits.
