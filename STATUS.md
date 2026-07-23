@@ -214,3 +214,18 @@ Este documento é o ponto oficial de retomada do projeto PIXEU.
 Este documento possui prioridade sobre qualquer conversa anterior.
 
 Em caso de divergência, seguir sempre o ESTADO_DO_PROJETO.md.
+---
+
+# INSTRUÇÃO PARA A IA
+
+Ao iniciar uma nova sessão de desenvolvimento:
+
+1. Ler este arquivo primeiro.
+2. Utilizar este arquivo como referência principal.
+3. Continuar exatamente da "Próxima Faixa de COMMITS".
+4. Consultar a documentação apenas quando necessário.
+5. Evitar replanejar funcionalidades já aprovadas.
+6. Priorizar implementação e commits.
+
+Este arquivo é o ponto oficial de continuidade da plataforma PIXEU.
+
