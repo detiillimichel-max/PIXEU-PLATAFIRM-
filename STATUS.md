@@ -8,7 +8,7 @@
 
 Este documento é a referência oficial para continuidade do desenvolvimento da PIXEU.
 
-Ao iniciar uma nova sessão utilizando o GitHub, este deverá ser o primeiro documento consultado.
+Ao iniciar uma nova sessão utilizando o conector GitHub, este deverá ser o primeiro documento consultado.
 
 Após sua leitura, o desenvolvimento deverá continuar exatamente do ponto registrado abaixo.
 
@@ -158,7 +158,7 @@ Criar a estrutura principal utilizada em toda a plataforma PIXEU.
 
 # FLUXO DE DESENVOLVIMENTO
 
-Selecionar GitHub.
+Selecionar o conector GitHub.
 
 ↓
 
@@ -214,6 +214,7 @@ Este documento é o ponto oficial de retomada do projeto PIXEU.
 Este documento possui prioridade sobre qualquer conversa anterior.
 
 Em caso de divergência, seguir sempre o ESTADO_DO_PROJETO.md.
+
 ---
 
 # INSTRUÇÃO PARA A IA
@@ -228,4 +229,3 @@ Ao iniciar uma nova sessão de desenvolvimento:
 6. Priorizar implementação e commits.
 
 Este arquivo é o ponto oficial de continuidade da plataforma PIXEU.
-
