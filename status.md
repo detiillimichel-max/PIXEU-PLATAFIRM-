@@ -106,31 +106,32 @@ Itens concluídos:
 
 # PRÓXIMO COMMIT
 
-- [ ] 0021 — Responsividade
+- [ ] 0022 — Home estilo Netflix
 
 Criar:
 
-- [ ] Ajustes para mobile
-- [ ] Ajustes para tablet
-- [ ] Ajustes para desktop
-- [ ] Ajustes para TV/large screen
-- [ ] Revisão de breakpoints
+- [ ] src/pages/Home.tsx
+- [ ] Banner principal
+- [ ] Faixas horizontais
+- [ ] Cards grandes com foco visual
+- [ ] Seções por categoria
+- [ ] Layout premium inspirado em streaming
 
 Objetivo:
 
-Garantir que a PIXEU funcione bem em todas as telas com comportamento consistente e sem quebras visuais.
+Criar a Home principal da PIXEU com aparência de catálogo de streaming, priorizando destaque visual e navegação por faixas.
 
 ---
 
 # PRÓXIMA SPRINT
 
-- [ ] 0021 — Responsividade
 - [ ] 0022 — Home estilo Netflix
 - [ ] 0023 — Banner
 - [ ] 0024 — Carrosséis
 - [ ] 0025 — Busca Global
 - [ ] 0026 — Layout Shell
 - [ ] 0027 — Header
+- [ ] 0028 — Sidebar
 
 ---
 
@@ -269,7 +270,7 @@ Atualizar apenas:
 
 Próxima Faixa de COMMITS
 
-- [x] 0021 em diante
+- [x] 0022 em diante
 
 ---
 
