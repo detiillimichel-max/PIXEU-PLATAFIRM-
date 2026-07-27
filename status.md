@@ -106,25 +106,23 @@ Itens concluídos:
 
 # PRÓXIMO COMMIT
 
-- [ ] 0016 — Layout Shell
+- [ ] 0017 — Header
 
 Criar:
 
-- [ ] src/components/layout/
-- [ ] Layout.tsx
-- [ ] Header.tsx
-- [ ] Sidebar.tsx
-- [ ] BottomNavigation.tsx
+- [ ] src/components/layout/Header.tsx
+- [ ] Botão de menu
+- [ ] Área de logo/nome
+- [ ] Ações rápidas no topo
 
 Objetivo:
 
-Criar a estrutura principal utilizada em toda a plataforma PIXEU.
+Criar o cabeçalho principal da PIXEU com identidade visual consistente.
 
 ---
 
 # PRÓXIMA SPRINT
 
-- [ ] 0016 — Layout Shell
 - [ ] 0017 — Header
 - [ ] 0018 — Sidebar
 - [ ] 0019 — Bottom Navigation
@@ -271,7 +269,7 @@ Atualizar apenas:
 
 Próxima Faixa de COMMITS
 
-- [x] 0016 em diante
+- [x] 0017 em diante
 
 ---
 
