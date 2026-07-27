@@ -106,24 +106,23 @@ Itens concluídos:
 
 # PRÓXIMO COMMIT
 
-- [ ] 0017 — Header
+- [ ] 0018 — Sidebar
 
 Criar:
 
-- [ ] src/components/layout/Header.tsx
-- [ ] Botão de menu
-- [ ] Área de logo/nome
-- [ ] Ações rápidas no topo
+- [ ] src/components/layout/Sidebar.tsx
+- [ ] Navegação lateral
+- [ ] Seção de atalhos
+- [ ] Estado recolhido/expandido
 
 Objetivo:
 
-Criar o cabeçalho principal da PIXEU com identidade visual consistente.
+Criar a navegação lateral principal da PIXEU com suporte a atalhos e seções.
 
 ---
 
 # PRÓXIMA SPRINT
 
-- [ ] 0017 — Header
 - [ ] 0018 — Sidebar
 - [ ] 0019 — Bottom Navigation
 - [ ] 0020 — Tema Claro / Escuro
@@ -269,7 +268,7 @@ Atualizar apenas:
 
 Próxima Faixa de COMMITS
 
-- [x] 0017 em diante
+- [x] 0018 em diante
 
 ---
 
