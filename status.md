@@ -263,7 +263,7 @@ Atualizar apenas:
 
 Última atualização
 
-- [x] 23/07/2026
+- [x] 2026-07-26
 
 Último Commit Executado
 
