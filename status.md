@@ -106,32 +106,30 @@ Itens concluídos:
 
 # PRÓXIMO COMMIT
 
-- [ ] 0022 — Home estilo Netflix
+- [ ] 0023 — Banner
 
 Criar:
 
-- [ ] src/pages/Home.tsx
-- [ ] Banner principal
-- [ ] Faixas horizontais
-- [ ] Cards grandes com foco visual
-- [ ] Seções por categoria
-- [ ] Layout premium inspirado em streaming
+- [ ] Banner principal da Home
+- [ ] Área de destaque visual
+- [ ] Chamada de ação
+- [ ] Integração com conteúdo em destaque
 
 Objetivo:
 
-Criar a Home principal da PIXEU com aparência de catálogo de streaming, priorizando destaque visual e navegação por faixas.
+Criar o banner hero da PIXEU para a Home estilo streaming, com foco em destaque visual e identidade da plataforma.
 
 ---
 
 # PRÓXIMA SPRINT
 
-- [ ] 0022 — Home estilo Netflix
 - [ ] 0023 — Banner
 - [ ] 0024 — Carrosséis
 - [ ] 0025 — Busca Global
 - [ ] 0026 — Layout Shell
 - [ ] 0027 — Header
 - [ ] 0028 — Sidebar
+- [ ] 0029 — Bottom Navigation
 
 ---
 
@@ -270,7 +268,7 @@ Atualizar apenas:
 
 Próxima Faixa de COMMITS
 
-- [x] 0022 em diante
+- [x] 0023 em diante
 
 ---
 
