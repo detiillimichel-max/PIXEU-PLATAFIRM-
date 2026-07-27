@@ -106,30 +106,31 @@ Itens concluídos:
 
 # PRÓXIMO COMMIT
 
-- [ ] 0020 — Tema Claro / Escuro
+- [ ] 0021 — Responsividade
 
 Criar:
 
-- [ ] src/components/layout/ThemeToggle.tsx
-- [ ] Alternância de tema global
-- [ ] Persistência em localStorage
-- [ ] Integração com Tailwind dark mode
+- [ ] Ajustes para mobile
+- [ ] Ajustes para tablet
+- [ ] Ajustes para desktop
+- [ ] Ajustes para TV/large screen
+- [ ] Revisão de breakpoints
 
 Objetivo:
 
-Criar a troca de tema da PIXEU com persistência e aplicação consistente em toda a interface.
+Garantir que a PIXEU funcione bem em todas as telas com comportamento consistente e sem quebras visuais.
 
 ---
 
 # PRÓXIMA SPRINT
 
-- [ ] 0020 — Tema Claro / Escuro
 - [ ] 0021 — Responsividade
 - [ ] 0022 — Home estilo Netflix
 - [ ] 0023 — Banner
 - [ ] 0024 — Carrosséis
 - [ ] 0025 — Busca Global
 - [ ] 0026 — Layout Shell
+- [ ] 0027 — Header
 
 ---
 
@@ -268,7 +269,7 @@ Atualizar apenas:
 
 Próxima Faixa de COMMITS
 
-- [x] 0020 em diante
+- [x] 0021 em diante
 
 ---
 
