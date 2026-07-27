@@ -106,29 +106,30 @@ Itens concluídos:
 
 # PRÓXIMO COMMIT
 
-- [ ] 0019 — Bottom Navigation
+- [ ] 0020 — Tema Claro / Escuro
 
 Criar:
 
-- [ ] src/components/layout/BottomNavigation.tsx
-- [ ] Navegação inferior mobile-first
-- [ ] Atalhos para Home, Busca, Clips e Perfil
+- [ ] src/components/layout/ThemeToggle.tsx
+- [ ] Alternância de tema global
+- [ ] Persistência em localStorage
+- [ ] Integração com Tailwind dark mode
 
 Objetivo:
 
-Criar a navegação inferior principal da PIXEU para uso em mobile e tablets.
+Criar a troca de tema da PIXEU com persistência e aplicação consistente em toda a interface.
 
 ---
 
 # PRÓXIMA SPRINT
 
-- [ ] 0019 — Bottom Navigation
 - [ ] 0020 — Tema Claro / Escuro
 - [ ] 0021 — Responsividade
 - [ ] 0022 — Home estilo Netflix
 - [ ] 0023 — Banner
 - [ ] 0024 — Carrosséis
 - [ ] 0025 — Busca Global
+- [ ] 0026 — Layout Shell
 
 ---
 
@@ -267,7 +268,7 @@ Atualizar apenas:
 
 Próxima Faixa de COMMITS
 
-- [x] 0019 em diante
+- [x] 0020 em diante
 
 ---
 
