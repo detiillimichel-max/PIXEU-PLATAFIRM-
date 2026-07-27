@@ -1,198 +1,290 @@
-Skip to content
-detiillimichel-max
-PIXEU-PLATAFIRM-
-Repository navigation
-Code
-Issues
-Pull requests
-Agents
-Actions
-Projects
-Wiki
-Security and quality
-Insights
-Settings
-Commit 1dafa22
-detiillimichel-max
-detiillimichel-max
-authored
-3 days ago
-·
-·
-Verified
-Add API Catalog documentation for PIXEU platform
-Documenta todas as APIs, provedores de conteúdo e serviços utilizados pela plataforma PIXEU, incluindo objetivos, filosofia, padrões de documentação, categorias, arquitetura, estratégias, política de cache e fallback.
-main
-1 parent 
-d8a9803
- commit 
-1dafa22
-1 file changed
+# ESTADO DO PROJETO — PIXEU
 
-+311
-Lines changed: 311 additions & 0 deletions
-Search within code
- 
-‎API_CATALOG.md‎
-+311
-Lines changed: 311 additions & 0 deletions
+> Documento oficial de continuidade do desenvolvimento da plataforma PIXEU.
 
-
-Original file line number	Diff line number	Diff line change
-@@ -0,0 +1,311 @@
-# API CATALOG — PIXEU
-Versão: 1.0
 ---
+
+# CONTROLE RÁPIDO
+
+## Estado geral
+
+- [x] Repositório principal identificado
+- [x] Documento de continuidade criado
+- [x] API Catalog documentado
+- [x] Estrutura base de PWA disponível
+- [ ] Layout Shell implementado
+- [ ] Home finalizada
+- [ ] Busca global integrada
+- [ ] Cache inteligente ativado
+- [ ] Supabase conectado ao fluxo principal
+- [ ] Edge Functions organizadas por domínio
+- [ ] Autenticação completa
+- [ ] Chat e social prontos
+- [ ] Streaming persistente pronto
+- [ ] Clips com backend pronto
+- [ ] Marketplace/Afiliados conectados
+
+---
+
 # OBJETIVO
-Este documento descreve todas as APIs, provedores de conteúdo e serviços utilizados pela plataforma PIXEU.
-Objetivos:
-• Priorizar APIs públicas.
-• Reduzir dependência de um único provedor.
-• Facilitar substituição de APIs.
-• Definir política de cache.
-• Definir quando utilizar Front-end, Edge Functions ou Vault.
-• Centralizar a documentação técnica das integrações.
+
+Este documento é a referência oficial para continuidade do desenvolvimento da PIXEU.
+
+Ao iniciar uma nova sessão utilizando o GitHub, este deverá ser o primeiro documento consultado.
+
+Após sua leitura, o desenvolvimento deverá continuar exatamente do ponto registrado abaixo.
+
+Não reiniciar o planejamento.
+
+Não alterar a arquitetura sem necessidade.
+
 ---
-# FILOSOFIA
-Sempre que possível seguir esta ordem:
-Cache
-↓
-Banco (Supabase)
-↓
-API Pública
-↓
-Edge Function
-↓
-IA
-A IA somente deverá ser utilizada quando agregar valor.
+
+# ACESSO RÁPIDO
+
+## Repositório GitHub
+
+- [x] https://github.com/detiillimichel-max/PIXEU-PLATAFIRM-
+
+Branch principal
+
+- [x] main
+
 ---
-# PADRÃO DE DOCUMENTAÇÃO
-Toda API cadastrada deverá possuir obrigatoriamente:
-• Nome
-• Site Oficial
-• Documentação
-• Finalidade
-• Categoria
-• Tipo de Conteúdo
-• Formato retornado
-• Necessita API Key
-• Gratuita ou Freemium
-• Pode ser utilizada diretamente no Front-end
-• Necessita Edge Function
-• Necessita Vault
-• TTL recomendado
-• Rate Limit
-• Licença
-• Campos importantes
-• Observações
-• Prioridade PIXEU
-• APIs de Backup (Fallback)
+
+## GitHub Pages
+
+- [x] https://detiillimichel-max.github.io/PIXEU-PLATAFIRM-/
+
 ---
-# CATEGORIAS
-📺 Vídeos
-📚 Livros
-🎮 Jogos
-🎵 Música
-📻 Rádio
-📰 Notícias
-🖼 Imagens
-🤖 Inteligência Artificial
-🗺 Mapas
-🌦 Clima
-👥 Redes Sociais
-🏛 Museus
-🚀 Ciência
+
+## Supabase
+
+Projeto
+
+- [x] PIXEU
+
+Dashboard
+
+- [x] https://supabase.com/dashboard/project/uqdwtzlkqaosnweyoyit
+
+API
+
+- [x] https://uqdwtzlkqaosnweyoyit.supabase.co
+
 ---
-# ARQUITETURA
-PIXEU
-↓
-Gateway
-↓
-Normalização
-↓
-Cache
-↓
-Banco
-↓
-Player / Interface
-↓
-Usuário
+
+# FASE ATUAL
+
+Front-end
+
+- [x] React
+- [x] Vite
+- [x] Tailwind CSS
+- [x] PWA
+- [x] GitHub Pages
+
+Status:
+
+🟢 Em desenvolvimento
+
 ---
-# ESTRATÉGIAS
-## Front-end
-Utilizar quando:
-• API pública.
-• Sem segredo.
-• CORS permitido.
-• Rate limit adequado.
+
+# ÚLTIMO COMMIT CONCLUÍDO
+
+- [x] 0015 — PWA
+
+Itens concluídos:
+
+- [x] Manifest
+- [x] Service Worker
+- [x] Registro do Service Worker
+- [x] CSS Global
+- [x] GitHub Pages
+
 ---
-## Edge Functions
-Utilizar quando:
-• API Key privada.
-• Necessidade de agregação.
-• Necessidade de normalização.
-• Necessidade de autenticação.
-• Controle de Rate Limit.
+
+# PRÓXIMO COMMIT
+
+- [ ] 0016 — Layout Shell
+
+Criar:
+
+- [ ] src/components/layout/
+- [ ] Layout.tsx
+- [ ] Header.tsx
+- [ ] Sidebar.tsx
+- [ ] BottomNavigation.tsx
+
+Objetivo:
+
+Criar a estrutura principal utilizada em toda a plataforma PIXEU.
+
 ---
-## Vault
-Utilizar apenas para:
-• Secrets.
-• Tokens privados.
-• OAuth.
-• APIs pagas.
-Nunca utilizar Vault para APIs totalmente públicas.
+
+# PRÓXIMA SPRINT
+
+- [ ] 0016 — Layout Shell
+- [ ] 0017 — Header
+- [ ] 0018 — Sidebar
+- [ ] 0019 — Bottom Navigation
+- [ ] 0020 — Tema Claro / Escuro
+- [ ] 0021 — Responsividade
+- [ ] 0022 — Home estilo Netflix
+- [ ] 0023 — Banner
+- [ ] 0024 — Carrosséis
+
 ---
-# POLÍTICA DE CACHE
-Notícias
-6 horas
-Clima
-12 horas
-Clima com alerta
-1 hora
-Vídeos
-7 dias
-Filmes
-30 dias
-Livros
-30 dias
-Museus
-30 dias
-Jogos
-24 horas
-Catálogos
-7 dias
-Conteúdo histórico
-365 dias
+
+# PRÓXIMAS ETAPAS
+
+- [ ] Home
+- [ ] Busca
+- [ ] Gateway Home
+- [ ] Gateway Search
+- [ ] Cache Inteligente
+- [ ] Supabase
+- [ ] Edge Functions
+- [ ] Administração das APIs
+- [ ] AI Router
+- [ ] Analytics
+- [ ] Moderação
+
 ---
-# FALLBACK
-Sempre que possível cada categoria deverá possuir múltiplos provedores.
-Exemplo:
-PIXEU TV
-↓
-Internet Archive
-↓
-Wikimedia
-↓
-PeerTube
-↓
-Pixabay
-↓
-Coverr
-↓
-Mixkit
-↓
-Blender
-↓
-NASA
-↓
-ESA
-↓
-Europeana
-↓
-Smithsonian
-Caso um provedor fique indisponível, outro deverá assumir automaticamente.
+
+# PARTES DO PROJETO
+
+## Parte 1 — Base de integração
+
+- [x] src/lib/oio-api.ts
+- [x] src/lib/oio-taxonomy.ts
+- [x] Wrapper safeTmdb para tolerar 401/500 sem quebrar UI
+- [x] YouTube corrigido para usar playlistId obrigatório (YT_PLAYLISTS)
+
+## Parte 2 — Content Hub
+
+- [x] src/routes/hub.tsx
+- [x] Busca global
+- [x] 18 chips de categoria
+- [x] Carrosséis dinâmicos
+- [x] Fallback silencioso para blocos que falham
+
+## Parte 3 — Abas principais
+
+- [x] Home: Clima (Open-Meteo), Rádios, Jogos, TrendingVideos (YouTube), Cosmos
+- [x] Streaming: hero + continuar assistindo + Top 10 (TMDB)
+- [x] Clips: feed vertical snap fullscreen
+- [x] Criar: hub de formatos + rascunhos
+- [x] Perfil: badge OIO, stats, PIX cópia-e-cola, menu
+
+## Parte 4 — APIs públicas isoladas
+
+- [x] src/lib/public-apis.ts
+- [x] Open Library
+- [x] Gutenberg
+- [x] LibriVox
+- [x] Wikimedia Commons
+- [x] REST Countries
+- [x] DiceBear
+- [x] parseShopeeAffiliate
+- [x] Rota /publico com busca unificada + blocos Clima/Países/Avatares/Shopee
+
+## Parte 5 — Autenticação & Perfil real
+
+- [ ] Integrar Supabase Auth (profiles, user_roles) usando VITE_OIO_ANON_KEY
+- [ ] Tela de login/registro com magic link + Google
+- [ ] Sincronizar perfil.tsx com tabela profiles (avatar, nome, bio)
+
+## Parte 6 — Chat & Social
+
+- [ ] Aba/rota de mensagens (direct_messages, groups, group_messages)
+- [ ] typing_status em tempo real via Supabase Realtime
+- [ ] Stories/Status (stories, status_media, media_comments)
+- [ ] Follows (follows) + feed social
+
+## Parte 7 — Streaming persistente
+
+- [ ] tveio_continue_watching (progresso real do usuário)
+- [ ] tveio_favorites, tveio_playlists, tveio_playlist_items
+- [ ] tveio_history + tveio_comments
+
+## Parte 8 — Clips com backend
+
+- [ ] Upload para Supabase Storage
+- [ ] videos
+- [ ] video_views
+- [ ] video_likes
+- [ ] video_shares
+- [ ] video_comments
+
 ---
-# OBJETIVO FINAL
-Nenhum módulo da PIXEU deverá depender exclusivamente de um único provedor de conteúdo.
-A arquitetura deverá permitir adicionar ou remover APIs sem modificar o Front-end.
-Toda integração deverá passar pela camada de normalização da plataforma.
+
+# PRINCÍPIOS
+
+- [x] Arquitetura antes da implementação.
+- [x] Documentação antes do código.
+- [x] Nenhum commit sem documentação.
+- [x] Supabase como cérebro da plataforma.
+- [x] APIs públicas sempre que possível.
+- [x] Edge Functions somente quando necessário.
+- [x] Cache antes da IA.
+- [x] IA apenas quando agregar valor.
+- [x] Economia de recursos como requisito de engenharia.
+- [x] Código único para celular, tablet, desktop e TV.
+
+---
+
+# FLUXO DE DESENVOLVIMENTO
+
+Selecionar GitHub.
+
+↓
+
+Continuar exatamente do último commit registrado.
+
+↓
+
+Executar o maior número possível de commits relacionados.
+
+↓
+
+Próximo do limite da sessão:
+
+Atualizar apenas:
+
+- [x] Documentação dos COMMITS realizados.
+- [x] ESTADO_DO_PROJETO.md.
+- [x] PROXIMA_SESSAO.md.
+- [x] CHANGELOG.md (quando necessário).
+
+---
+
+# CONTROLE DA SESSÃO
+
+Última atualização
+
+- [x] 23/07/2026
+
+Último Commit Executado
+
+- [x] 0015
+
+Próxima Faixa de COMMITS
+
+- [x] 0016 em diante
+
+---
+
+# IMPORTANTE
+
+Ao final de cada sessão de desenvolvimento, atualizar obrigatoriamente:
+
+- [x] Último Commit Executado.
+- [x] Próxima Faixa de COMMITS.
+- [x] Última Atualização.
+
+Este documento é o ponto oficial de retomada do projeto PIXEU.
+
+Este documento possui prioridade sobre qualquer conversa anterior.
+
+Em caso de divergência, seguir sempre o ESTADO_DO_PROJETO.md.
