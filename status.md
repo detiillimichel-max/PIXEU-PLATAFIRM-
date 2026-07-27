@@ -106,30 +106,29 @@ Itens concluídos:
 
 # PRÓXIMO COMMIT
 
-- [ ] 0018 — Sidebar
+- [ ] 0019 — Bottom Navigation
 
 Criar:
 
-- [ ] src/components/layout/Sidebar.tsx
-- [ ] Navegação lateral
-- [ ] Seção de atalhos
-- [ ] Estado recolhido/expandido
+- [ ] src/components/layout/BottomNavigation.tsx
+- [ ] Navegação inferior mobile-first
+- [ ] Atalhos para Home, Busca, Clips e Perfil
 
 Objetivo:
 
-Criar a navegação lateral principal da PIXEU com suporte a atalhos e seções.
+Criar a navegação inferior principal da PIXEU para uso em mobile e tablets.
 
 ---
 
 # PRÓXIMA SPRINT
 
-- [ ] 0018 — Sidebar
 - [ ] 0019 — Bottom Navigation
 - [ ] 0020 — Tema Claro / Escuro
 - [ ] 0021 — Responsividade
 - [ ] 0022 — Home estilo Netflix
 - [ ] 0023 — Banner
 - [ ] 0024 — Carrosséis
+- [ ] 0025 — Busca Global
 
 ---
 
@@ -268,7 +267,7 @@ Atualizar apenas:
 
 Próxima Faixa de COMMITS
 
-- [x] 0018 em diante
+- [x] 0019 em diante
 
 ---
 
