@@ -76,17 +76,15 @@ API
 
 # FASE ATUAL
 
-Front-end
-
-- [x] React
-- [x] Vite
-- [x] Tailwind CSS
-- [x] PWA
-- [x] GitHub Pages
+## Fase 1 — Estabilização da arquitetura
 
 Status:
 
-🟢 Em desenvolvimento
+🟡 Em foco
+
+### Objetivo
+Congelar o projeto sem criar novas Edge Functions, sem mexer no banco e sem alterar o design.
+Prioridade: mapear o consumo real de cada integração e corrigir o alinhamento entre Edge Functions, `oio-api.ts` e UI.
 
 ---
 
@@ -106,25 +104,25 @@ Itens concluídos:
 
 # PRÓXIMO COMMIT
 
-- [ ] 0023 — Banner
+- [ ] 0023 — Estabilização
 
 Criar:
 
-- [ ] Banner principal da Home
-- [ ] Área de destaque visual
-- [ ] Chamada de ação
-- [ ] Integração com conteúdo em destaque
+- [ ] Auditoria do consumo real das integrações
+- [ ] Verificação do alinhamento entre `oio-api.ts`, tiles e players
+- [ ] Registro técnico das Edge Functions usadas pelo PIXEU
+- [ ] Ajustes mínimos de contrato de dados, sem alterar banco
 
 Objetivo:
 
-Criar o banner hero da PIXEU para a Home estilo streaming, com foco em destaque visual e identidade da plataforma.
+Estabilizar o PIXEU para que o conteúdo carregue e reproduza corretamente antes de qualquer expansão.
 
 ---
 
 # PRÓXIMA SPRINT
 
-- [ ] 0023 — Banner
-- [ ] 0024 — Carrosséis
+- [ ] 0023 — Estabilização
+- [ ] 0024 — Home
 - [ ] 0025 — Busca Global
 - [ ] 0026 — Layout Shell
 - [ ] 0027 — Header
@@ -260,7 +258,7 @@ Atualizar apenas:
 
 Última atualização
 
-- [x] 2026-07-26
+- [x] 2026-07-28
 
 Último Commit Executado
 
