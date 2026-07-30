@@ -8,6 +8,28 @@ Ele cobre a base visual, a navegação, o tema, a adaptação por dispositivo e 
 
 ---
 
+## Regras rígidas de desenvolvimento e commits
+
+### Edição integral de arquivo
+
+- É proibido fazer micro-edições de poucas linhas ou edições picadas.
+- Cada arquivo alterado deve ser entregue do início ao fim em uma única passagem.
+- Finalize completamente a lógica do Arquivo A antes de passar para o Arquivo B.
+- É proibido retornar ao mesmo arquivo dentro da mesma tarefa, a menos que ocorra um erro de execução ou uma nova instrução explícita.
+
+### Commits atômicos e estruturados
+
+- Não fazer commits de 5 a 10 linhas soltas.
+- Cada commit deve representar uma entrega lógica e completa do módulo ou funcionalidade.
+- Um commit deve conter todas as alterações necessárias do arquivo ou módulo correspondente, pronto para funcionar sem deixar pontas soltas.
+
+### Segurança e integridade do projeto
+
+- Nunca alterar arquivos essenciais ou dos quais o app depende para funcionar sem avisar previamente.
+- Se for estritamente necessário mexer em arquivos estruturais ou críticos, o impacto deve ser comunicado antes da alteração.
+
+---
+
 ## Princípios
 
 - Primeiro mobile.
