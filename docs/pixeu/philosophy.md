@@ -1,6 +1,6 @@
 # Filosofia do PIXEU
 
-Versão 1.0
+Versão 1.1
 
 ---
 
@@ -52,6 +52,20 @@ Isso mantém a experiência organizada e intuitiva.
 
 ---
 
+## Plataforma Universal
+
+O PIXEU foi projetado para funcionar em qualquer lugar.
+
+Uma única plataforma.
+
+Uma única experiência.
+
+O usuário pode acessar pelo celular, computador ou Smart TV via URL.
+
+A interface se adapta automaticamente ao contexto de uso.
+
+---
+
 ## Segurança
 
 Todo conteúdo passa por regras de moderação.
@@ -59,6 +73,25 @@ Todo conteúdo passa por regras de moderação.
 O usuário deve navegar com confiança.
 
 Conteúdos impróprios não fazem parte da experiência do PIXEU.
+
+A moderação vale para todo o aplicativo.
+
+---
+
+## Moderação
+
+O PIXEU deve bloquear ou ocultar conteúdos inadequados antes de exibi-los.
+
+A moderação deve considerar:
+
+- título;
+- descrição;
+- categoria;
+- classificação etária;
+- palavras proibidas;
+- sinais de nudez, pornografia, violência extrema, discurso de ódio ou palavrões fora da política do projeto.
+
+Se o conteúdo não estiver de acordo com as regras, ele não entra no feed.
 
 ---
 
